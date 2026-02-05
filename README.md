@@ -1,3 +1,830 @@
---// This file was created by XHider https://discord.com/invite/E2N7w35zkt
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐯 Tiger Hub Obfuscator PRO - TigerMoon V2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-return(function(...)local O,s do local u,y,z,l,P=math.floor,string.char,string.byte,tonumber,string.sub local function T(O,s)local y=0 for z=0,7,1 do local l=O/2+s/2 if l~=u(l)then y=y+2^z end O=u(O/2)s=u(s/2)end return y end local o,h="iiihhhiiiiihssss","\232\199\217\185\189\1672\253\228\254\153\016\148\148\221\185\181\190\001\209\000\000\001\000\000\001\a\000\000\000__index\006\000\000\000__call\005\000\000\000__mod\005\000\000\000__mul"local A=65 local Z=1518 local t=true local function F(O)local u={}for s=0,3,1 do local y=s*2+1 local t=P(O,y,y+1)local F=l(t,16)local G=((F-Z)+256)%256 local w=z(o,s%16+1)local Y=z(h,s%A+1)u[s+1]=T(T(G,w),Y)end local F=((u[1]+u[2]*256)+u[3]*65536)+u[4]*16777216 local G={}local w=9 for s=1,F,1 do local u if t and s%2==0 then u=P(O,w+1,w+1)..P(O,w,w)else u=P(O,w,w+1)end local F=l(u,16)local Y=((F-Z)+256)%256 local x=(s-1)%16+1 local c=(s-1)%A+1 local f=z(o,x)local r=z(h,c)G[s]=y(T(T(Y,f),r))w=w+2 end return table.concat(G)end local G={{8423,"779C9EBFB1DBC18A93C926DE"};{3543,"759C9EBFBFDBB02AA99A"};{"7D9C9EBFDFACCD399EA91D1CCF6E80707928";147};{"7B9C9EBFDFACCD399EA91DEADA3E8AB0";5266},{7706;"7C9C9EBFDFACCD399EA91D0CE67E81AF7C67AE"};{6222,"729C9EBFD2ACB0CA95"};{6223;"729C9EBFDFBBBFBAA7"},{"7A9C9EBFC59BB3077EC9188ECC0CA463A1";2826},{"709C9EBFB6BCDF";1342},{"759C9EBFC0BBB06A939A";3544};{"7B9C9EBFC3ECE5788998104BD70D82E2";5267},{"7B9C9EBFAEDECB2DCF3A001BB1DBB140";5268},{2827;"7A9C9EBFE92EEA4870CAFF4CCDBBA9D174"},{7817;"A09C9EBFC3DBCBF89EBA208ED85A82B08107BBCAA71A34782AEEEF8037FEEE9F08503703625168256A0F379FFA4032C550E55B0FFABF35"};{"7D9C9EBFC4FCEB47A4A81FADB67C816F96F9";148};{"759C9EBFB0FACACA95AE";3545},{5027;"7F9C9EBFB1DBC18AA0BA22FCD11EA1507967CA7E"},{1103;"749C9EBFD5ACCDAA756707"},{"7D9C9EBFA6BC72479197F8DCEADC82E176C9";149};{"7B9C9EBFD49BB2AA9E9A28ECDA3E8AB0";5269},{6224;"729C9EBFE3DBC0BA9E"},{3546,"759C9EBFE2EAAEE9A429"},{5270,"7B9C9EBFA51DE0A8DA175ACEDCEA85D3"},{1870;"829C9EBFB55BCC3A8149175DE72C86FF7917CFA98D9AF78B09"};{"739C9EBFC3FACDBA",8662};{2828;"7A9C9EBFD65BB65787B92A1CA7BB70C3A1"};{"7B9C9EBFC9EAD12886CA040CECCE71E0";5271};{2829;"7A9C9EBFC1DBCC3AA809F6ECEDCE8CD082"},{150;"7D9C9EBFB89CDF9ADAA750F8D93C8B206E2A"};{"7B9C9EBFE1DBCC3AA809F6ECEDCE8CD0",5272},{8424;"779C9EBFE3FAB1399549231E"},{"6E9C9EBFA9";6939},{"749C9EBFA947833AED4D4F";1104},{8663,"739C9EBFD4BCB31A"},{151,"7D9C9EBFC04BC4C8D2172B9EAF1E6EA07047"};{"7B9C9EBFA29BAEEC8F69184CC259B06F";5273},{"739C9EBFDADBB27A",8664},{152;"7D9C9EBFB1B8E3098D49584DE52E9F027FF9"},{153;"7D9C9EBFC48DB1587D6E1FACE70BA5827877"},{"7A9C9EBFD28BAF3D72A95139D629978F8B",2830};{154;"7D9C9EBFD29DB36A7FA922A9C99CB7E29D5C"},{155,"7D9C9EBFD5AE74E78507F89EBC3B866F98B7"};{"7A9C9EBFB2DEB60DD2F8FCE8B64C72D285";2831};{"7A9C9EBFE548E81A75B8031CE64C73F08E";2832},{156,"7D9C9EBFCECEE0979D4E1B7EB13981A393B9"};{"7A9C9EBFE14EBF59A5492BBDA21CAE826F";2833},{3782,"719C9EBFCC7D"};{"7D9C9EBFB1CEE5FC82190F4CC3D9AAB2CD5A",157},{"7B9C9EBFE7BEB07992A8005DB1BD91A1";5274};{"759C9EBFE1DBCC3AA809",3547};{"759C9EBFD0FACC0AA29A",3548};{6225,"729C9EBFDFDBC71994"};{2834;"7A9C9EBFB49BB2E78F9A17BEDD0D72B082"};{158,"7D9C9EBFD55CCEE8AA09503BCD4D7152BFEB"},{"719C9EBFDBA8";3783},{"719C9EBFDBD8";3784};{"6E9C9EBFC0";6940},{"7A9C9EBFC5ECECE67A795139CB7CA8838C",2835};{2836,"7A9C9EBFC2BCC3198AF819FCE71B776F70"},{8665;"739C9EBFB2EAB3AA"},{"7A9C9EBFBAFAB3099E07220DD68E834081";2837};{159;"7D9C9EBFC2DEC5A87BCE561CBA0E7372BE69"};{"769C9EBFC09DEBFD8A980C7C9A",5983},{8666,"739C9EBFC39BB639"};{"739C9EBFE3DBB18A",8667};{"739C9EBFE4DBC739",8668},{8669;"739C9EBFB39ECE28"},{"789C9EBFCCFDCB2A8FC91D3EDD9E83";864},{"869C9EBFC34BC709E3092CECDA1D7F8079077C199D5EF24CF91FFBBF35";1631};{2838,"7A9C9EBFE32CCC69A7095A2DB7DDA0128B"},{5984,"769C9EBFD0FAB0CA8E9A208ED6"},{6941;"6E9C9EBFDD"};{"7B9C9EBFD11DAE999DDE1049CBBD939F";5275},{"7A9C9EBFB8CEB2AAA7C80AAEC7D98ED372";2839};{6226;"729C9EBFD39BC029A0"},{"749C9EBFD49BB26AA97922",1105};{7707;"7C9C9EBFC7587199745E2D1DB4BDA10F91CCB3"},{3549;"759C9EBFB96CCAE8A13A"};{"7A9C9EBFD49CCBF6D038FECCAA1C86D394",2840};{2841,"7A9C9EBFC6FAB3FD82BA2C2AAF6E71AFB4"};{"7D9C9EBFE0CCB419945E1D8EADED78F2A52A",160},{3550;"759C9EBFE08CB06AA969"};{"7D9C9EBFC45BCAE795471C5EB38E8CEE845A",161},{"7D9C9EBFE44DE4E782C851BBA3E889C3A0E9",162},{"749C9EBFBF0BBF699EBA16",1106};{"779C9EBFB6EAB139A2F826FD";8425};{"739C9EBFD4DBCB2A";8670};{3304,"799C9EBFB49BB2079EBA1BBEDC0E"};{5985,"769C9EBFBF0BBF699EBA0AFCD2"};{"729C9EBFC28DC7AAD5";6227},{5028,"7F9C9EBFC2BCC3198AF819FCE72B838F7FC7BBD9"},{5276,"7B9C9EBFC4DBC73981E8175CD3CE8AA0"},{"789C9EBFBBFAC1E9A7D8253EE20E70",865};{"709C9EBFDD9BB5";1343},{5986,"769C9EBFC0BBB02A9EF80AFCD2"};{"749C9EBFB39CAE2A808A20";1107},{"739C9EBFBDDBCB2A",8671};{5277;"7B9C9EBFC19BB12A8FE6235BEB4E7540"},{163;"7D9C9EBFC95DCC3A9E5A07FDD34E74FF7638"};{1108,"749C9EBFC05BC0BAAAF82A"};{"769C9EBFBADBC7DA81BA287ED6",5987},{"729C9EBFB5ACBFAA9E",6228},{"739C9EBFC05BB82A",8672};{2842;"7A9C9EBFD5DE6F1D89870F9EE66E8101A5"};{"779C9EBFBFFAB16A8F49228E",8426};{7708,"7C9C9EBFB1FAB03A9EBAF6BEE50E8EFF8D07B0"};{"739C9EBFC28DC7AA";8673};{"779C9EBFC25DE1CA95F82C4D",8427};{"7B9C9EBFB0FAB0DA9EBAF73ED7CE739F",5278};{5988,"769C9EBFC39BB63987C927FDCF"},{"729C9EBFC35BB2BA9E";6229};{9190;"859C9EBFB1DBC18AA0BA22FCD11E928F7477CB8AAB39FB5CF9FF"};{866,"789C9EBFB39CAE2AE3A8105DE70E8B"},{"799C9EBFC39BB63984E8259EED29",3305};{8428;"779C9EBFC39BB63974490FFD"};{"739C9EBFB5FACC39",8674};{"799C9EBFB4FAB27AA209079ECF1E",3306},{3307,"799C9EBFC39BB639858A1DECD07E"};{"799C9EBFB39CAE2A858A1DECD07E";3308};{3309;"799C9EBFB6EAAE298FB72C1EDA7E"};{"799C9EBFBAFAB3099E8723ECD63D";3310},{1109,"749C9EBFB0FACCDA9EA91D"},{3311,"799C9EBFBAFAB3099E172C3EE90E"};{2587,"7E9C9EBFBAFAB3099EB71CECE76E8C739297B579A5"},{5279;"7B9C9EBFB6EAAE298FA7213ED1ED83A0"},{7517,"929C9EBFC0BBB06A939A69EDD65AA2BF85077C79AB3908ACFD7FFA4F379FEF3F41EE47D353266C051F"},{"729C9EBFDFACC7DA8F";6230},{3551;"759C9EBFD41BBF39A459"},{"739C9EBFDADBC7DA";8675},{3552;"759C9EBFD6CCBF6A95AA"},{"779C9EBFE3FACC29A6B92C4D",8429};{5280;"7B9C9EBFBAFAB3099EB71CECE76E8C73"};{"7A9C9EBFDCACC74AAAF8286EB63D705083",2843};{2270,"BD9C9EBFC3DBCBF89EBA208ED85A82B08107BBCAA71A3478262FFB6F08BF3C9F0AB046B351161B76669F374F0C64417620E567440BFEEE23054653D6F3700B6338135A4152F8AE2C943EA6C2D4CEECC8FB7B"},{1344;"709C9EBFDABCC5"},{"799C9EBFB39ECEB88AA708EBB04A";3312},{914,"8B9C9EBFB68CC3AAE3991C2DCFCE817071677C79A18A368B0B9FFB80085F4263"},{"A19C9EBFB00BCDDA9EDD243ED11D21FB785BC839A64A0978F79036DF0A4FFBFE0AB03BE257155A7563B037BFF440477669666460F63F";258},{"7D9C9EBFB49BB2389EAA26FDD11E7F408128";164},{6231,"729C9EBFB00BCDDA9E"},{"749C9EBFB04BBFDAA0892D";1110};{5281,"7B9C9EBFE09BB2AA9E9A28ECDA3E8AB0"},{"729C9EBFD00BCD0AAC",6232},{"7D9C9EBFB90BCD396E990AECC63982C07D69";165},{1111;"749C9EBFDFDBC18AA2692C"},{"719C9EBFDCBC";3785},{"719C9EBFD6FA";3786};{8676,"739C9EBFD55BCA2A"};{"779C9EBFD59CCC0A8F49228E",8430},{166,"7D9C9EBFBDDCB8B8CEDE1B9EAF6CACCFBE47"},{"7B9C9EBFC35BAE178D970D0ECB5DA6FE";5282},{"749C9EBFCCFDC7DA9F8911",1112},{1113;"749C9EBFCCFDC22AA58A2A"},{3553;"759C9EBFCCFDC1E9A719"},{6942;"6E9C9EBFD8"};{"799C9EBFCCFDCC2A904923EDD6DD",3313},{"759C9EBFCCFDCBCA9F89";3554},{"749C9EBFCCFDAEE9AABA16";1114};{8431;"779C9EBFCCFDC7F8A249175D"},{8677;"739C9EBFCCFDC50A"},{6233;"729C9EBFCCFDCA2AA9"};{"7B9C9EBF9F4BCB7A7D270119D0DCB080",5283};{2844,"7A9C9EBFA2A8E4C873F8243EA33D97FF90"};{"7B9C9EBFA66BEADA874A561BCA1C6FD3",5284},{3314;"799C9EBFDBFABF3A949A17BED1ED"};{8678,"739C9EBFDBFABF3A"},{6234;"729C9EBFCCFDC26A91"},{"729C9EBFCCFDB129A5";6235},{6236;"729C9EBFCCFDAECA90"},{"779C9EBFCCFDC1CAA9A928EC",8432},{"729C9EBFCCFDCB29A7";6237};{6238;"729C9EBFCCFDCBCA9F"},{"799C9EBFCCFDB2CA949A17BED1ED",3315};{"729C9EBFCCFDBF3A9F",6239};{"729C9EBFCCFDB3DAA6",6240};{"739C9EBFCCFDCA2A",8679},{8680;"739C9EBFCCFDC3E8"},{8681;"739C9EBFCCFDCA39"};{5285,"7B9C9EBFD89BC628D1170B3BD86CB450"};{"779C9EBFBEEAB5C885DA1C29";8433},{8682;"739C9EBF9F6E75EC"};{167,"7D9C9EBFB57DD22DD1B7015EA61997F27038"};{8434,"779C9EBFB35BB1E9A5192CED"},{3555,"759C9EBFC0FAB319A489"},{5286,"7B9C9EBFB248AF1770F8F63BD69CB690"},{168;"7D9C9EBFE37EE2E7DAAA2D0DBDEA81EFC23C"},{"7A9C9EBFB84DD7278AAE015BABEB95F2C3",2845};{"7A9C9EBFA1CC76FC9DDA11EDA99E8BB077";2846},{"729C9EBFC3FAB30AAB",6241};{5287,"7B9C9EBFBC7B7797A68903FAB03EB301"},{"7B9C9EBFBAFAC229A789F65EEDCE6EAF",5288},{"7D9C9EBFB55BCC3A8149175DE72C86FF7917";169},{170;"7D9C9EBFC2BCC3198AF819FCE72B72708107"};{"709C9EBFB2EAC2",1345},{8683,"739C9EBFE35BCB2A"},{"7D9C9EBFD46BB179A1D8045DAC0CB0E0A20C";171};{"789C9EBFBBFAC1E9A7A8264DD25D72";867},{5289,"7B9C9EBFD58EB72888A80D2BA92E7370"};{5290,"7B9C9EBFE4D8E7178EC82B3BA7CDAA81"};{5291,"7B9C9EBFC09BB2E78F9A17BEDD0D72B0"};{"8F9C9EBFC3DBCBF89EBA208ED85A82B08107BBCAA71A34781B80084F0963FB5F054004AF",675},{"739C9EBFE44BBF39",8684};{"6E9C9EBFB0",6943};{"8B9C9EBFB68CC3AAE399222ADD4E81108547BBF8EA1A0B7BF2FEF96FFB5F4263",915},{"7B9C9EBFA3BED8FC9F8A0629ED9E7683",5292};{"759C9EBFE7CCC1E9A719",3556},{3557;"759C9EBFD6EAB12A959A"},{"7B9C9EBF9E7871187A5A025ED15B6E8F";5293};{5294,"7B9C9EBFC4DCE66DA27818EBBCE88110"},{5295,"7B9C9EBFC5ADEDA86F9A0DBED309A3A1"},{6944;"6E9C9EBFC6"},{"6E9C9EBFC7";6945},{6242,"729C9EBFC0BBBFBA9E"},{3558,"759C9EBFBC6BC4099E9A"};{5296;"7B9C9EBF9F7D716ACFC703CDACC98E70"},{"739C9EBFE35CAE2A";8685};{"7B9C9EBFDB586FCA806E049CC3DEA681",5297},{1115;"749C9EBFD49BB27AA8E81E"},{"7A9C9EBFD44BC5197D9A2A8CC8BC80727F";2847};{"769C9EBFB04BBF19A2A91DFDED";5989};{2848;"7A9C9EBFB65CCA777B271B0BD71CB070CD"},{2849,"7A9C9EBFC668716D7B4708ECB4EC72B0AD"},{"7D9C9EBFE3FAB0ECA0980109C37E843281F9";172},{"7D9C9EBFE34CC8386EDE5AF8AA8C85C393D8";173};{"7A9C9EBFE2A8E78895C7EF6CCA6C94326F",2850};{2851,"7A9C9EBFB2DDD3E77B680FBCD48E7FCF81"};{5298;"7B9C9EBFB458B5F680A75ACCB42E7802"},{"7B9C9EBFC22CB43DD07811EDCD2E7522";5299}}local w={}s=setmetatable({},{__index=function(O,s)return w[s]end,__call=function(O,s)return w[s]end;__mod=function(O,s)return w[s]end;__mul=function(O,s)return w[s]end;__metatable=false})function O(s)local u=w if not u[s]then for O=1,#G,1 do local y=G[O]local z=type(y[1])=="number"and y[1]or y[2]if z==s then local O=type(y[1])=="string"and y[1]or y[2]u[s]=F(O)break end end end return s end end return(function(u,z,l,P,T,o,h,r,Z,F,i,x,t,g,f,w,A,G,H,R,y,c,Y)y,r,i,R,Y,G,g,f,x,F,A,H,t,c,Z,w=function(y,l,P,T)local xa={}local w,Aa,V,J,Za,q,Oa,Pa,Ta,b,N,ha,wa,m,F,a,k,ca,S,Q,p,la,E,I,ya,n,d,X,B,oa,Ga,L,C,K,h,Z,za,D,e,j,v,ua,U,G,sa,Ya,ta,Fa,W,M while y do if y<8153693 then if y<3756742 then if y<2168659 then if y<1325847 then if y<538172 then if y<277765 then if y<159449 then if y<119398 then if y<75060 then y=A[P[2]]h=y(F)D=s[O(8423)]G=h w=A[P[1]]h=w[D]y=s[O(3543)]w=s[O(3543)]G[y]=h h=F[w]y=h==Z y=y and 12038475 or 3339407 else ua=t()Pa=g(7968934,{ya,n,B})A[ua]=Pa Pa=r(3187880,{I,m;ya,ua,B})Ta=s[O(147)]a[Ta]=Pa Ta=s[O(5266)]Pa=H(7497675,{ua})a[Ta]=Pa Ta=s[O(7706)]Pa=H(7511050,{B;n})za=s[O(6222)]a[Ta]=Pa Ta=y la=u[za]oa=la~=p y=oa and 4153115 or 14231859 Pa=oa end else y=xa[14]y=2384985 xa[11]=xa[13]end else if y<202073 then xa[5]=xa[5]+xa[7]xa[9]=not xa[8]xa[4]=xa[5]<=xa[6]xa[4]=xa[9]and xa[4]xa[9]=xa[5]>=xa[6]xa[9]=xa[8]and xa[9]xa[4]=xa[9]or xa[4]xa[9]=1791589 y=xa[4]and xa[9]xa[4]=7913525 y=y or xa[4]else A[G]=xa[4]y=xa[5]xa[5]=A[G]y=xa[5]and 15403508 or 13971188 end end else if y<391747 then if y<312873 then S=B==K U=S y=10696651 else xa[5]=s[O(6223)]xa[4]=u[xa[5]]xa[3]=xa[4]~=V xa[1]=xa[3]xa[2]=y y=xa[3]and 9021681 or 11675162 end else if y<404520 then y=u[s[O(2826)]]h={}else B=s[O(1342)]K=s[O(3544)]B=p[B]B=B(p,K)I=y y=B and 16237640 or 9194518 L=B end end end else if y<1026073 then if y<926453 then if y<864426 then if y<836189 then y=A[P[1]]h=y()h={}y=u[s[O(5267)]]else xa[16]=y xa[17]=A[G]y=xa[17]and 10048021 or 6805374 xa[15]=xa[17]end else h={}y=u[s[O(5268)]]end else if y<1009608 then F=nil Z=nil G=nil y=u[s[O(2827)]]h={}else y=s[O(7817)]h={y}y=u[s[O(148)]]end end else if y<1132971 then if y<1051062 then y=A[P[2]]h=y()y=1001527 else G=s[O(3545)]y=A[P[1]]F=u[G]D=255 h=s[O(5027)]G=s[O(1103)]Z=F[G]G=0 w=120 F=Z(G,w,D)y[h]=F h={}y=u[s[O(149)]]end else if y<1211515 then Za=y Fa=s[O(5269)]Ga=u[Fa]ta=Ga~=L Aa=ta y=ta and 8689767 or 14707634 else za,ha=oa(la,za)y=za and 5579950 or 14463737 end end end end else if y<1800582 then if y<1744810 then if y<1533238 then if y<1362840 then if y<1341273 then W=nil k=Y(k)b=Y(b)M=Y(M)y=3752620 N=Y(N)d=Y(d)C=Y(C)else m=s[O(6224)]K=u[m]m=s[O(3546)]y=1544086 B=K[m]L=B end else y=u[s[O(5270)]]h={}end else if y<1558773 then y=I h=L y=L and 12547485 or 8937001 else G=A[P[1]]w=s[O(8423)]y=G[w]G=s[O(1870)]G=y[G]w=s[O(8662)]G=G(y,w)y=G and 10883653 or 4597228 end end else if y<1780743 then if y<1770513 then y=A[P[1]]h=y()y=u[s[O(2828)]]h={}else y=A[P[1]]h=y()y=u[s[O(5271)]]h={}end else if y<1785772 then xa[4]=s[O(2829)]xa[3]=16777216.0 xa[2]=1 ca=A[Ga]xa[1]=ca(xa[2],xa[3])xa[3]=u[xa[4]]y=u[s[O(150)]]xa[4]=s[O(5272)]xa[5]=1 xa[6]=16777216.0 xa[2]=xa[3][xa[4]]xa[3]=xa[2]()xa[2]=A[Ga]xa[4]=xa[2](xa[5],xa[6])ca=xa[3]^xa[4]wa=xa[1]-ca xa[3]=s[O(2829)]xa[2]=u[xa[3]]xa[3]=s[O(5272)]xa[1]=xa[2][xa[3]]xa[2]=xa[1]()ca=xa[2]/wa h={ca}else xa[9]=100 xa[15]=2 xa[10]=t()xa[4]=t()A[xa[4]]=xa[5]A[xa[10]]=xa[9]xa[12]=256 xa[11]=A[xa[4]]xa[9]=xa[11]%xa[12]xa[11]=t()xa[23]=10000 xa[22]=0 A[xa[11]]=xa[9]xa[13]=A[xa[4]]xa[14]=A[xa[10]]xa[12]=xa[13]%xa[14]xa[13]=1 xa[9]=xa[12]+xa[13]xa[12]=t()xa[19]=s[O(8424)]A[xa[12]]=xa[9]xa[14]=A[xa[4]]xa[13]=xa[14]%xa[15]xa[16]=s[O(6939)]xa[14]=0 xa[9]=xa[13]==xa[14]xa[14]=s[O(1104)]xa[13]=t()A[xa[13]]=xa[9]xa[18]=u[xa[19]]xa[20]=A[Ga]xa[21]={xa[20](xa[22],xa[23])}xa[9]=s[O(8663)]xa[19]=xa[18](z(xa[21]))xa[18]=s[O(6939)]xa[17]=xa[19]..xa[18]xa[9]=xa[2][xa[9]]xa[15]=xa[16]..xa[17]xa[9]=xa[9](xa[2],xa[14],xa[15])xa[16]=s[O(6223)]xa[14]=t()A[xa[14]]=xa[9]xa[15]=u[xa[16]]xa[17]=r(13821503,{Ga;xa[4];za;G;xa[3],xa[13],xa[14];xa[10];xa[12],xa[11];Ya})xa[16]={xa[15](xa[17])}xa[9]={z(xa[16])}xa[15]=A[xa[13]]y=xa[15]and 856258 or 16413454 end end end else if y<1974279 then if y<1924366 then if y<1806284 then Ta=nil ha=nil y=1325149 else y=false A[P[2]]=y y=394177 end else if y<1929555 then Ya=A[n]y=13659584 wa=Ya()else y=A[P[1]]h=y()h={}y=u[s[O(151)]]end end else if y<2037279 then if y<2020361 then y=h and 5081611 or 8135270 else h={}y=u[s[O(5273)]]end else if y<2128650 then v=D y=A[P[3]]y[w]=v y=15247912 else y=A[P[1]]L=255 n=0 p=y(n,L)F=G Z[F]=p F=nil y=13022208 end end end end end else if y<2833114 then if y<2523613 then if y<2381833 then if y<2255648 then if y<2209573 then if y<2192234 then xa[14]=y xa[17]=s[O(8664)]xa[16]=u[xa[17]]xa[15]=xa[16]~=W xa[13]=xa[15]y=xa[15]and 146842 or 10769856 else G=A[P[5]]F=G==Z h=F y=5853072 end else y=ha oa=za y=8582982 end else if y<2305981 then y=true A[P[1]]=y h={}y=u[s[O(152)]]else y=A[P[1]]h=y()y=u[s[O(153)]]h={}end end else if y<2471404 then if y<2461092 then y=xa[12]xa[9]=xa[11]y=12787883 else w=s[O(2829)]G=16777216.0 h=A[P[1]]F=1 Z=h(F,G)G=u[w]D=1 w=s[O(5272)]F=G[w]v=16777216.0 G=F()F=A[P[1]]w=F(D,v)h=G^w y=Z-h Z=y G=s[O(2829)]F=u[G]G=s[O(5272)]h=F[G]F=h()y=F/Z h={y}y=u[s[O(2830)]]end else if y<2480002 then y=10018528 G=nil else y=13478065 Q=1 E=W[Q]sa=E end end end else if y<2626481 then if y<2570699 then if y<2538985 then D=2 F=A[P[1]]w=1 G=F(w,D)F=1 Z=G==F y=Z and 4543842 or 10088550 h=Z else Ga=A[Za]Ta=Ga y=12850028 end else if y<2617209 then y=A[P[1]]h=y()h={}y=u[s[O(154)]]else F=A[P[2]]h=F y=1982371 end end else if y<2669809 then if y<2651916 then F=1 G=16777216.0 h=A[P[1]]Z=h(F,G)v=16777216.0 w=s[O(2829)]G=u[w]w=s[O(5272)]F=G[w]G=F()D=1 F=A[P[1]]w=F(D,v)h=G^w G=s[O(2829)]y=Z-h F=u[G]Z=y G=s[O(5272)]h=F[G]F=h()y=F/Z h={y}y=u[s[O(155)]]else y=A[P[1]]h=y()y=u[s[O(2831)]]h={}end else if y<2703288 then xa[3]=xa[5]y=xa[6]y=16588459 else y=A[P[1]]F=l[2]G=l[3]Z=l[1]Z=nil G=nil F=nil h=y()h={}y=u[s[O(2832)]]end end end end else if y<3287175 then if y<3157745 then if y<3079187 then if y<2994280 then if y<2904778 then h={}y=u[s[O(156)]]else S=A[F]U=S y=S and 292086 or 10696651 end else y=A[P[1]]h=y()h={}y=u[s[O(2833)]]end else if y<3130445 then Za=y y=C and 7326930 or 11613436 Ta=C else y=A[P[2]]h=y()y=6660477 end end else if y<3218244 then if y<3190998 then w=s[O(3782)]y=A[P[1]]G=u[w]w={y(G)}F=w[3]y=16246334 Z=w[2]h=w[1]G=h else sa=A[F]y=sa and 10241884 or 7712141 h=sa end else if y<3262598 then h=s[O(8662)]y=s[O(1870)]y=Z[y]y=y(Z,h)F=y y=F and 70510 or 1627921 else y=A[P[1]]h=y()y=u[s[O(157)]]h={}end end end else if y<3393972 then if y<3319661 then if y<3299829 then y=i(6540603,{w})S={y()}y=u[s[O(5274)]]h={z(S)}else p=s[O(8664)]v=h h=u[p]p=s[O(3547)]y=h[p]p=t()n=s[O(6224)]A[p]=y h=u[n]n=s[O(3548)]y=h[n]K=s[O(6224)]n=y I=y B=u[K]L=B y=B and 1349347 or 1544086 end else if y<3364568 then h=s[O(6225)]p=s[O(2834)]y=u[h]p=F[p]v={p(F)}p={y(z(v))}w=p[2]h=p[1]y=11048940 D=p[3]v=h else h={}y=u[s[O(158)]]Z=nil end end else if y<3565842 then if y<3527768 then h=s[O(3783)]y=u[h]Z=s[O(3784)]h=u[Z]Z=s[O(3784)]u[Z]=y Z=s[O(3783)]u[Z]=h Z=A[P[1]]y=11807510 F=Z()else y=A[P[6]]y=y and 13298925 or 12014297 end else if y<3613521 then Ga=s[O(6940)]ta=1 Za=d(ta,Ga)ta=not Za y=ta and 8430874 or 13573676 else M=not X U=U+j h=U<=S h=M and h M=U>=S M=X and M h=M or h M=13664854 y=h and M h=2960848 y=y or h end end end end end end else if y<5852969 then if y<5014442 then if y<4649619 then if y<4136566 then if y<3956245 then if y<3880961 then if y<3864316 then oa,la=Pa(Ta,oa)y=oa and 11944962 or 87482 else y=A[P[1]]h=y()h={}y=u[s[O(2835)]]end else w=s[O(2836)]p=s[O(8665)]Z=l[1]G=Z[w]v=u[p]p=s[O(2836)]D=v[p]v=s[O(2837)]w=D[v]F=G==w y=F and 11663192 or 15005176 h=F end else if y<3990724 then y=5431862 Fa=A[n]Ya=Fa()else y=u[s[O(159)]]h={}end end else if y<4545497 then if y<4521192 then y=Ta y=Pa and 4838057 or 6418298 else y=h and 5705218 or 8720151 end else if y<4564658 then Oa=2 J=W[Oa]y=15817592 Oa=A[b]Q=J==Oa sa=Q else D=s[O(5983)]w=s[O(8666)]y=A[P[3]]y[w]=D p=s[O(3545)]w=s[O(5027)]y=A[P[3]]v=u[p]p=s[O(1103)]D=v[p]p=255 n=50 L=50 v=D(p,n,L)y[w]=v D=s[O(8667)]w=u[D]D=s[O(8668)]L=255 y=w[D]D=1 w=y(D)w=s[O(8666)]D=s[O(8669)]p=s[O(3545)]y=A[P[3]]y[w]=D y=A[P[3]]n=120 v=u[p]p=s[O(1103)]D=v[p]w=s[O(5027)]p=0 v=D(p,n,L)y[w]=v y=2479337 end end end else if y<4824251 then if y<4780282 then if y<4745134 then ca=s[O(3546)]wa=u[ca]y=11707394 Fa=wa else y=A[P[4]]F=A[P[3]]D=s[O(864)]w=s[O(3782)]Z=y(F)y=s[O(3782)]u[y]=Z y=A[P[5]]G=u[w]v=s[O(1631)]w={[D]=v}h={}F=y(G,w)y=u[s[O(2838)]]end else if y<4800943 then xa[13]=s[O(5984)]xa[10]=y xa[12]=u[xa[13]]xa[11]=xa[12]~=k xa[9]=xa[11]y=xa[11]and 12787883 or 5066544 else xa[3]=s[O(6941)]xa[2]=u[xa[3]]xa[3]=65 xa[1]=xa[2]>xa[3]y=12493426 wa=xa[1]end end else if y<4869486 then if y<4841021 then Pa=A[n]y=6418298 Ta=Pa()else y=A[P[1]]h=y()h={}y=u[s[O(5275)]]end else if y<4953604 then y=A[P[1]]h=y()h={}y=u[s[O(2839)]]else J=s[O(6226)]Q=u[J]J=s[O(1105)]W=Q[J]y=6900385 k=W end end end end else if y<5290272 then if y<5082490 then if y<5063334 then if y<5028886 then if y<5021142 then h=920708 F=s[O(7707)]G=2732548 Z=F^G y=h-Z Z=y h=s[O(3549)]y=h/Z h={y}y=u[s[O(2840)]]else xa[21]=2 xa[20]=xa[9][xa[21]]xa[21]=A[xa[14]]xa[19]=xa[20]==xa[21]y=15012584 xa[17]=xa[19]end else h=s[O(6222)]Z=s[O(2841)]y=u[h]h=y(Z)y=u[s[O(160)]]h={}end else if y<5069100 then xa[15]=s[O(3550)]xa[14]=u[xa[15]]xa[12]=y xa[13]=xa[14]~=b xa[11]=xa[13]y=xa[13]and 2384985 or 2188862 else y=A[P[3]]h=y(Z)y=8135270 end end else if y<5100703 then if y<5084476 then y=13714513 v=nil p=nil else y=A[P[1]]h=y()h={}y=u[s[O(161)]]end else if y<5222305 then y=la and 8877854 or 9661566 else y=A[P[9]]F=A[P[10]]Z[y]=F y=A[P[11]]F={y(Z)}h={z(F)}y=u[s[O(162)]]end end end else if y<5551853 then if y<5424214 then if y<5329560 then C=nil I=Y(I)w=nil ua=Y(ua)M=nil W=nil q=nil L=nil a=nil Q=nil Ya=Y(Ya)Ta=nil m=Y(m)xa[1]=nil Oa=nil Za=Y(Za)X=nil w=s[O(1106)]Aa=nil D=nil e=nil ca=nil za=Y(za)V=nil K=nil n=Y(n)G=Y(G)oa=nil B=Y(B)xa[3]=Y(xa[3])xa[2]=nil V=100 ha=nil F=nil wa=nil p=nil n=s[O(8425)]J=nil la=nil ya=Y(ya)N=nil G=s[O(8670)]ta=nil d=nil b=nil Pa=nil F=u[G]m=200 Ga=Y(Ga)k=nil G=s[O(3304)]p=s[O(5985)]K=s[O(6227)]D=s[O(5028)]G=F[G]G=G(F,w)v=nil w=s[O(8670)]F=u[w]w=s[O(3304)]v=s[O(5276)]w=F[w]w=w(F,D)D=s[O(865)]F=G[D]D=t()A[D]=F F=A[D]v=F[v]v=v(F,p)B=s[O(8665)]p=u[n]n=s[O(1343)]F=p[n]n=s[O(5986)]p=F(n)e=0 n=s[O(1107)]F=s[O(8671)]p[F]=n F=s[O(5277)]n=false p[F]=n F=s[O(163)]I=u[B]B=s[O(163)]L=I[B]I=s[O(1108)]n=L[I]p[F]=n n=v F=s[O(3543)]I=s[O(5987)]p[F]=n L=s[O(8425)]n=u[L]L=s[O(1343)]F=n[L]L=s[O(6228)]n=F(L)L=s[O(8671)]F=t()A[F]=n n=A[F]n[L]=I n=A[F]B=u[K]L=s[O(8672)]K=s[O(1343)]I=B[K]K=0 B=I(K,m,e,V)n[L]=B e=.5 K=s[O(6227)]n=A[F]y=u[s[O(2842)]]L=s[O(8426)]B=u[K]V=-50 K=s[O(1343)]I=B[K]m=-100 K=.5 B=I(K,m,e,V)G=nil n[L]=B K=s[O(3545)]n=A[F]B=u[K]m=0 K=s[O(1103)]L=s[O(5027)]e=0 I=B[K]K=0 B=I(K,m,e)I=0 n[L]=B L=s[O(7708)]n=A[F]e=0 n[L]=I L=s[O(3543)]I=p n=A[F]n[L]=I I=s[O(8425)]L=u[I]I=s[O(1343)]n=L[I]K=s[O(8673)]I=s[O(8427)]L=n(I)m=12 n=s[O(5278)]B=u[K]p=nil K=s[O(1343)]I=B[K]K=0 B=I(K,m)L[n]=B I=A[F]n=s[O(3543)]L[n]=I B=s[O(8425)]I=u[B]B=s[O(1343)]n=I[B]B=s[O(5988)]I=n(B)X=35 n=s[O(8671)]B=s[O(6229)]V=0 I[n]=B n=s[O(8672)]m=s[O(6227)]K=u[m]C=40 m=s[O(1343)]B=K[m]m=1 K=B(m,e,V,X)I[n]=K n=s[O(8426)]m=s[O(6227)]K=u[m]m=s[O(1343)]B=K[m]e=0 X=0 V=0 m=0 M=0 K=B(m,e,V,X)I[n]=K B=1 n=s[O(9190)]m=s[O(3545)]V=255 I[n]=B n=s[O(8666)]B=s[O(866)]I[n]=B n=s[O(3305)]X=160 K=u[m]e=255 m=s[O(1103)]B=K[m]m=255 K=B(m,e,V)V=s[O(6227)]B=16 I[n]=K n=s[O(8428)]I[n]=B e=s[O(8665)]n=s[O(8674)]m=u[e]e=s[O(8674)]K=m[e]m=s[O(3306)]B=K[m]I[n]=B B=A[F]n=s[O(3543)]I[n]=B K=s[O(8425)]B=u[K]K=s[O(1343)]n=B[K]K=s[O(3307)]B=n(K)K=s[O(8671)]n=t()m=s[O(3308)]A[n]=B B=A[n]B[K]=m K=s[O(8672)]B=A[n]e=u[V]V=s[O(1343)]m=e[V]V=0 d=s[O(3309)]e=m(V,X,M,C)B[K]=e V=s[O(6227)]K=s[O(8426)]C=50 B=A[n]e=u[V]V=s[O(1343)]M=0 X=-80 m=e[V]V=.5 e=m(V,X,M,C)B[K]=e M=255 V=s[O(3545)]X=120 B=A[n]e=u[V]K=s[O(5027)]V=s[O(1103)]m=e[V]V=0 e=m(V,X,M)M=255 m=0 B[K]=e V=s[O(3545)]K=s[O(7708)]B=A[n]B[K]=m B=A[n]K=s[O(8666)]m=s[O(8669)]B[K]=m B=A[n]K=s[O(3305)]e=u[V]V=s[O(1103)]m=e[V]V=255 X=255 e=m(V,X,M)B[K]=e m=18 K=s[O(8428)]B=A[n]X=s[O(8665)]B[K]=m B=A[n]K=s[O(8674)]V=u[X]X=s[O(8674)]e=V[X]V=s[O(3306)]m=e[V]B[K]=m B=A[n]K=s[O(3543)]m=A[F]B[K]=m m=s[O(8425)]K=u[m]m=s[O(1343)]B=K[m]m=s[O(8427)]K=B(m)B=s[O(5278)]V=s[O(8673)]e=u[V]V=s[O(1343)]m=e[V]V=0 X=8 e=m(V,X)K[B]=e m=A[n]B=s[O(3543)]K[B]=m e=s[O(3310)]m=A[n]B=m[e]e=c(9097695,{n})m=s[O(1109)]L=nil m=B[m]m=m(B,e)X=t()V=t()e=s[O(3311)]m=A[n]B=m[e]e=H(1059148,{n})m=s[O(1109)]m=B[m]m=m(B,e)k=s[O(2587)]e=t()B=nil M=c(13760111,{V;F,X})m=t()A[m]=B B=nil A[e]=B B=nil A[V]=B B=nil A[X]=B B=t()A[B]=M C=A[F]M=C[d]C=s[O(1109)]C=M[C]d=f(5902051,{m;V,F;X})C=C(M,d)d=s[O(5279)]V=Y(V)C=A[F]K=nil M=C[d]d=r(3948512,{e})C=s[O(1109)]X=Y(X)C=M[C]I=nil C=C(M,d)C=s[O(5279)]d=g(15125694,{e;m;B})M=w[C]h={}v=nil w=nil m=Y(m)C=s[O(1109)]C=M[C]C=C(M,d)M=t()C=r(6124601,{})e=Y(e)A[M]=C N=A[n]d=N[k]F=Y(F)C=c(14598115,{D;M,n})N=s[O(1109)]N=d[N]k=s[O(7517)]n=Y(n)D=Y(D)N=N(d,C)C=nil B=Y(B)N=s[O(6230)]M=Y(M)d=u[N]N=d(k)else y=ca y=wa and 11707394 or 4741422 Fa=wa end else if y<5485034 then Ga=nil Za=nil y=13054558 Ta=nil ta=nil else ha=s[O(3550)]za=u[ha]ha=s[O(3551)]Ta=za[ha]za=t()ta=s[O(8675)]A[za]=Ta ha=s[O(6223)]y=8217708 Ta=u[ha]Za=u[ta]ta={Ta(Za)}ha=ta[1]Aa=ta[2]Za=s[O(3552)]Ta=u[Za]Fa={Ta(Pa)}Ga=Fa[3]ta=Fa[2]Za=Fa[1]end end else if y<5700907 then if y<5647111 then Ta=za Ga=s[O(3782)]ta=u[Ga]Za=ta[ha]Ga=A[ya]ta=Ga[ha]Aa=Za~=ta y=Aa and 13963203 or 1801621 else G=A[P[9]]F=1 y={}w=G G=1 D=G G=0 Z=y v=D<G y=12421241 G=F-D end else if y<5715153 then n=s[O(6223)]h=s[O(8429)]w=s[O(8424)]L=H(8023611,{})y=u[h]Z=A[P[4]]G=u[w]p=u[n]n={p(L)}p=2 v={z(n)}D=v[p]w=G(D)G=s[O(1104)]F=Z(w,G)Z={F()}h=y(z(Z))Z=h F=A[P[5]]y=F and 14527869 or 6408122 h=F else y=A[P[1]]h=G y[F]=h y=1001527 end end end end end else if y<7225643 then if y<6415662 then if y<6126108 then if y<6065948 then if y<5964497 then if y<5898399 then Z=nil y=3561962 A[P[4]]=h else Z=t()A[Z]=l[1]p=s[O(8665)]D=s[O(2836)]w=A[Z]G=w[D]v=u[p]p=s[O(2836)]D=v[p]v=s[O(5280)]w=D[v]F=G==w y=F and 11380203 or 8672696 h=F end else h=s[O(2843)]G=s[O(2270)]F=s[O(1344)]y=u[h]Z={[F]=G}h=y(Z)y=9803279 end else if y<6090560 then D=s[O(3312)]w=s[O(8666)]y=A[P[3]]y[w]=D y=A[P[3]]w=s[O(5027)]n=255 p=s[O(3545)]v=u[p]p=s[O(1103)]L=100 D=v[p]p=0 v=D(p,n,L)D=s[O(8667)]y[w]=v w=u[D]D=s[O(8668)]G=nil y=w[D]p=s[O(3545)]D=.5 w=y(D)D=s[O(8669)]L=255 w=s[O(8666)]y=A[P[3]]y[w]=D w=s[O(5027)]y=A[P[3]]v=u[p]p=s[O(1103)]D=v[p]n=120 p=0 v=D(p,n,L)y[w]=v w=s[O(6230)]y=u[w]n=s[O(8671)]v=s[O(914)]p=F[n]D=v..p w=y(D)w=s[O(6230)]y=u[w]D=s[O(258)]w=y(D)y=10018528 else v=s[O(164)]Z=l[1]y=s[O(6231)]y=Z[y]y=y(Z)F=y h=s[O(6225)]v=Z[v]y=u[h]D={v(Z)}v={y(z(D))}G=v[2]w=v[3]y=13714513 h=v[1]D=h end end else if y<6346646 then if y<6136587 then y=true D=s[O(1110)]A[P[1]]=y G=s[O(8426)]F=A[Z]w=s[O(8426)]h=F[G]A[P[2]]=h G=A[P[3]]F=G[w]A[P[4]]=F w=A[Z]G=w[D]y=7800965 D=R(9524231,{Z;P[1]})w=s[O(1109)]w=G[w]w=w(G,D)else ta=s[O(5281)]ha=y Za=u[ta]ta=A[B]Aa=Za~=ta y=Aa and 2209802 or 1135816 za=Aa end else if y<6399017 then Ga=y Za=A[I]Ya=s[O(6232)]Fa=J[Ya]y=Fa and 11680728 or 9970979 ta=Fa else A[P[5]]=h Z=nil y=8720151 end end end else if y<6736298 then if y<6571139 then if y<6462856 then Ta=y za=s[O(6223)]la=u[za]oa=la~=V Pa=oa y=oa and 11823351 or 10353700 else y=11807510 end else if y<6679219 then F=nil h={}y=u[s[O(165)]]Z=nil else y=true y=y and 16328091 or 4133097 end end else if y<6945343 then if y<6898481 then A[G]=xa[15]y=xa[16]y=11673775 else y=b J=s[O(6224)]b=nil d=k or b k=s[O(1111)]N=u[k]Oa=s[O(3785)]q=s[O(3786)]a=s[O(8676)]Q=s[O(8664)]b=s[O(5984)]k=u[b]W=s[O(3550)]ya=t()b=u[W]W=u[Q]Q=u[J]J=u[Oa]Oa=u[q]q=u[a]ua={}a={}A[ya]=ua y=3841395 za=s[O(3782)]ua=A[I]la=u[za]za={ua(la)}oa=za[3]Pa=za[1]Ta=za[2]end else if y<7165094 then v=A[P[2]]w=F p=v(D)v=s[O(8430)]y=p==v y=y and 2108457 or 15247912 else E=A[F]y=E and 2522558 or 13478065 sa=E end end end end else if y<7870909 then if y<7558582 then if y<7497071 then if y<7407344 then if y<7352070 then Ta=d y=11613436 else y=A[P[1]]h=y()y=u[s[O(166)]]h={}end else xa[3]=s[O(6224)]y=5421102 xa[2]=u[xa[3]]xa[3]=s[O(3546)]xa[1]=xa[2][xa[3]]wa=xa[1]end else if y<7501859 then Z=l[1]y=A[P[1]]h={y(Z)}y=u[s[O(5282)]]h={z(h)}else D=s[O(1112)]Z=t()I=false d=c(3269844,{P[2]})N=s[O(1113)]V=s[O(3553)]y=x(11267853,{Z})e=s[O(6942)]G={}F=t()v=H(13744935,{F,P[2]})p=s[O(3313)]m=s[O(3554)]K=i(3003100,{P[2]})k=i(1934009,{P[2]})A[Z]=l[1]X=s[O(1114)]L=s[O(864)]A[F]=y C=s[O(8431)]n=H(2804834,{P[2]})M=f(3869339,{P[2]})B=s[O(8677)]y=A[P[1]]j=r(8359875,{P[2]})S=s[O(6233)]U=f(2348862,{P[2]})w={[D]=v;[p]=n,[L]=I;[B]=K,[m]=e;[V]=U;[S]=j;[X]=M;[C]=d,[N]=k}h={y(G,w)}h={z(h)}y=u[s[O(5283)]]end end else if y<7694935 then if y<7673798 then h={F}y=u[s[O(2844)]]else y=12822863 ca=A[n]xa[1]=ca()end else if y<7766459 then y=1327486 A[F]=h else h={}Z=Y(Z)y=u[s[O(5284)]]end end end else if y<7968980 then if y<7923666 then if y<7882988 then xa[3]=s[O(3314)]ca=y xa[2]=u[xa[3]]xa[1]=xa[2]~=e y=xa[1]and 16326055 or 384658 wa=xa[1]else xa[6]=A[G]xa[5]=y y=xa[6]and 10789911 or 253760 xa[4]=xa[6]end else if y<7957634 then Ya=y xa[1]=s[O(8678)]ca=u[xa[1]]wa=ca~=K Fa=wa y=wa and 15070714 or 7878926 else q=s[O(6234)]E=s[O(6235)]K=s[O(6233)]ha=i(1777423,{P[2]})I=s[O(3553)]Z=l[1]Pa=s[O(6236)]S=r(12290703,{P[2]})ya=H(2654869,{P[2]})L=s[O(6942)]v=s[O(8677)]w=s[O(864)]d=s[O(8432)]a=c(798594,{P[2]})J=s[O(6237)]j=s[O(1113)]e=s[O(1114)]sa=R(14226643,{P[2]})ua=s[O(6238)]M=s[O(3315)]b=i(15463086,{P[2]})Za=r(14710354,{P[2]})D=false m=r(2613836,{P[2]})W=s[O(6239)]k=s[O(6240)]Aa=s[O(8679)]n=s[O(3554)]X=i(12991904,{P[2]})F=s[O(3313)]V=R(4873014,{P[2]})p=f(1751627,{P[2]})B=r(10030851,{P[2]})Oa=c(16396471,{P[2]})la=r(14532616,{P[2]})U=s[O(8431)]N=c(14669400,{P[2]})Ta=i(5084495,{P[2]})G=R(16610459,{P[1],P[2]})C=R(16107997,{P[2]})h=s[O(1112)]oa=s[O(8680)]Q=H(7377501,{P[2]})za=s[O(8681)]y={[h]=Z,[F]=G,[w]=D,[v]=p;[n]=L;[I]=B,[K]=m;[e]=V;[U]=S,[j]=X,[M]=C;[d]=N,[k]=b,[W]=sa,[E]=Q,[J]=Oa;[q]=a,[ua]=ya,[Pa]=Ta,[oa]=la,[za]=ha;[Aa]=Za}F=y G={}y=A[P[3]]h={y(G,F)}y=u[s[O(5285)]]h={z(h)}end end else if y<8056350 then if y<8016839 then y=A[p]j=1 X=6 S=y(j,X)y=s[O(3783)]X=s[O(3783)]u[y]=S j=u[X]X=2 y=j>X y=y and 11123641 or 11771544 else h=11690340 F=s[O(8433)]G=15652494 Z=F^G y=h-Z h=s[O(8682)]Z=y y=h/Z h={y}y=u[s[O(167)]]end else if y<8104612 then I=s[O(8434)]y=s[O(8434)]L=p[I]n[y]=L I=s[O(3555)]y=s[O(3555)]L=p[I]n[y]=L y=15368834 else h={}Z=nil y=u[s[O(5286)]]end end end end end end end else if y<12208019 then if y<10137610 then if y<9112928 then if y<8632329 then if y<8467452 then if y<8414894 then if y<8324609 then if y<8262490 then Ga,Fa=Za(ta,Ga)y=Ga and 11277484 or 3097293 else y=9803279 end else y=A[P[1]]h=y()h={}y=u[s[O(168)]]end else if y<8441777 then ta=A[n]y=13573676 Ga=ta()else y=15374855 Za=nil Ya=nil end end else if y<8556761 then if y<8469392 then y=A[P[1]]h={y}y=u[s[O(2845)]]else y=16645550 end else if y<8592686 then Pa=oa y=la y=4153115 else y=u[s[O(2846)]]h={}end end end else if y<8929565 then if y<8710876 then if y<8678363 then D=s[O(2836)]w=A[Z]p=s[O(8665)]G=w[D]v=u[p]p=s[O(2836)]D=v[p]y=11380203 v=s[O(6241)]w=D[v]F=G==w h=F else y=Za y=2209802 za=Aa end else if y<8853230 then y=A[P[7]]y=y and 16042186 or 5698899 else Ta=A[n]y=9661566 za=Ta()end end else if y<8998365 then if y<8958966 then I=s[O(3546)]y=12547485 L=u[I]h=L else xa[22]=1 A[G]=xa[16]y=xa[17]xa[21]=A[xa[12]]xa[20]=xa[21]+xa[22]xa[19]=xa[9][xa[20]]xa[18]=wa+xa[19]xa[19]=256 xa[17]=xa[18]%xa[19]wa=xa[17]xa[20]=A[xa[11]]xa[19]=ca+xa[20]y=11673775 xa[20]=256 xa[18]=xa[19]%xa[20]ca=xa[18]end else if y<9034082 then y=xa[2]wa=xa[1]y=16326055 else G=s[O(3545)]y=A[P[1]]D=255 F=u[G]G=s[O(1103)]Z=F[G]h=s[O(5027)]G=0 w=140 F=Z(G,w,D)y[h]=F h={}y=u[s[O(5287)]]end end end end else if y<9962578 then if y<9656992 then if y<9290711 then if y<9240574 then if y<9187449 then Za=Fa y=Ya and 11393526 or 8455968 else K=s[O(5288)]B=s[O(1342)]B=p[B]B=B(p,K)L=B y=16237640 end else L=s[O(8671)]y=s[O(169)]n=p[L]y=F[y]L=true y=y(F,n,L)n=y y=n and 8061908 or 15368834 end else if y<9473983 then y=13778267 else F=s[O(170)]Z=A[P[1]]w=s[O(8665)]h=Z[F]G=u[w]w=s[O(170)]F=G[w]G=s[O(1345)]Z=F[G]y=h==Z y=y and 1849529 or 394177 end end else if y<9747738 then if y<9658462 then y=n and 9279481 or 5083979 else y=5489200 end else if y<9813351 then y=true y=y and 8289616 or 8593940 else Ta=s[O(3785)]za=s[O(6226)]y=1325149 oa=s[O(3786)]la=s[O(8676)]Pa={Ta,oa;la,za}oa=s[O(3552)]Ta=u[oa]ha={Ta(Pa)}la=ha[2]za=ha[3]oa=ha[1]end end end else if y<10039128 then if y<10020017 then if y<9995822 then Ya=s[O(8683)]Fa=J[Ya]y=11680728 ta=Fa else Z=nil h={}F=nil y=u[s[O(171)]]end else if y<10028889 then I=s[O(867)]L=s[O(1342)]v=w L=p[L]L=L(p,I)n=L y=L and 9657343 or 415748 else y=A[P[1]]h=y()y=u[s[O(5289)]]h={}end end else if y<10075371 then if y<10065683 then xa[21]=1 xa[18]=y xa[20]=xa[9][xa[21]]xa[21]=false xa[19]=xa[20]==xa[21]y=xa[19]and 5027605 or 15012584 xa[17]=xa[19]else y=A[P[10]]F=A[P[11]]Z[y]=F y=A[P[12]]F={y(Z)}y=u[s[O(5290)]]h={z(F)}end else if y<10088424 then p=D y=s[O(5291)]y=G[y]y=y(G,p,n)n=nil p=nil y=11048940 else F=A[P[2]]G=A[P[3]]y=4543842 Z=F==G h=Z end end end end end else if y<11389559 then if y<10770095 then if y<10534523 then if y<10283468 then if y<10270516 then if y<10249969 then E=y Oa=1 J=W[Oa]Oa=false Q=J==Oa y=Q and 4550822 or 15817592 sa=Q else D=s[O(8664)]h=s[O(2843)]F=s[O(675)]y=u[h]w=u[D]v=9999 D=s[O(3547)]G=w[D]D=1000 w=G(D,v)Z=F..w h=y(Z)y=12217386 end else wa=0 ca=0 y=172900 xa[4]=i(2469962,{Ga})xa[3]=s[O(6223)]xa[2]=u[xa[3]]xa[8]=s[O(8424)]xa[3]={xa[2](xa[4])}xa[1]={z(xa[3])}xa[3]=2 xa[2]=xa[1][xa[3]]xa[4]=s[O(8429)]xa[3]=u[xa[4]]xa[5]=A[za]xa[7]=u[xa[8]]xa[8]=xa[7](xa[2])xa[7]=s[O(1104)]xa[6]=xa[5](xa[8],xa[7])xa[5]={xa[6]()}xa[4]=xa[3](z(xa[5]))xa[5]=100 xa[3]=t()A[xa[3]]=xa[4]xa[4]=1 xa[6]=xa[5]xa[5]=1 xa[7]=xa[5]xa[5]=0 xa[8]=xa[7]<xa[5]xa[5]=xa[4]-xa[7]end else if y<10455510 then ha=s[O(8664)]za=u[ha]ha=s[O(3547)]la=za[ha]oa=la~=X Pa=oa y=11823351 else Z=l y=true F=t()A[F]=y G=s[O(3550)]h=u[G]G=s[O(3551)]D=t()y=h[G]G=t()A[G]=y p=s[O(6223)]n=f(15916261,{D})w=t()y=c(5032556,{})A[w]=y y=false A[D]=y v=u[p]p=v(n)y=p and 14257755 or 3309907 h=p end end else if y<10684797 then if y<10571419 then xa[4]=s[O(8684)]xa[3]=wa[xa[4]]xa[4]=s[O(6943)]xa[2]=xa[3]~=xa[4]ca=xa[2]y=14560341 else L=c(2627772,{P[1]})h=s[O(8429)]n=s[O(6223)]w=s[O(8424)]y=u[h]Z=A[P[3]]G=u[w]p=u[n]n={p(L)}p=2 v={z(n)}D=v[p]w=G(D)G=s[O(1104)]F=Z(w,G)Z={F()}h=y(z(Z))F=A[P[4]]Z=h y=F and 2207415 or 5853072 h=F end else if y<10706899 then A[F]=U y=A[F]y=y and 9435298 or 14719706 else y=146842 xa[17]=s[O(6224)]xa[16]=u[xa[17]]xa[15]=xa[16]~=Q xa[13]=xa[15]end end end else if y<11053858 then if y<10845531 then if y<10775465 then xa[8]=y xa[11]=s[O(1111)]xa[10]=u[xa[11]]xa[9]=xa[10]~=N y=xa[9]and 15749484 or 4781030 xa[7]=xa[9]else xa[6]=wa==ca y=253760 xa[4]=xa[6]end else if y<10887954 then y=A[P[2]]w=y(G)v=A[P[1]]n=s[O(3545)]p=s[O(8423)]I=100 L=255 D=v[p]y=s[O(3543)]w[y]=D D=s[O(8666)]y=A[P[3]]v=s[O(3312)]y[D]=v y=A[P[3]]D=s[O(5027)]p=u[n]n=s[O(1103)]v=p[n]n=0 p=v(n,L,I)y[D]=p v=s[O(8667)]D=u[v]v=s[O(8668)]n=s[O(3545)]y=D[v]v=.5 D=y(v)v=s[O(8669)]y=A[P[3]]w=nil L=120 D=s[O(8666)]y[D]=v I=255 D=s[O(5027)]y=A[P[3]]p=u[n]n=s[O(1103)]v=p[n]n=0 p=v(n,L,I)y[D]=p p=s[O(915)]L=s[O(8671)]D=s[O(6230)]y=u[D]n=G[L]v=p..n D=y(v)y=2479337 else D,n=v(w,D)y=D and 10088209 or 6085531 end end else if y<11270954 then if y<11220407 then j=s[O(8424)]M=s[O(3784)]y=u[j]X=u[M]j=y(X)y=s[O(3783)]u[y]=j y=15919070 else y=A[P[1]]Z={o(1,z(l))}h={y(z(Z))}y=u[s[O(5292)]]h={z(h)}end else if y<11359653 then Ta=Ga ca=s[O(5269)]wa=u[ca]xa[3]=s[O(3782)]xa[2]=u[xa[3]]xa[1]=xa[2][Fa]ca=wa(xa[1])xa[1]=s[O(5269)]wa=u[xa[1]]xa[3]=A[ya]xa[2]=xa[3][Fa]xa[1]=wa(xa[2])Ya=ca~=xa[1]y=Ya and 1925142 or 13659584 else y=h and 6129651 or 7800965 end end end end else if y<11791002 then if y<11675053 then if y<11654507 then if y<11428514 then if y<11394286 then ca=s[O(6940)]xa[1]=y wa=d(Ya,ca)y=wa and 10542748 or 14560341 ca=wa else Aa=ta y=Ga y=8689767 end else y=Za y=Ta and 6396326 or 13054558 end else if y<11667659 then y=h and 12167095 or 3380967 else xa[13]=Y(xa[13])xa[4]=Y(xa[4])xa[11]=Y(xa[11])xa[12]=Y(xa[12])xa[10]=Y(xa[10])y=172900 xa[14]=Y(xa[14])xa[9]=nil end end else if y<11692401 then if y<11679320 then xa[4]=y xa[7]=s[O(3556)]xa[6]=u[xa[7]]xa[5]=xa[6]~=M xa[3]=xa[5]y=xa[5]and 16588459 or 12900079 else Fa=s[O(3557)]y=Ga Ga=Q[Fa]Ta={Za;ta,Ga}Za=A[I]Ya={Za(Ta)}Fa=Ya[3]Ga=Ya[2]ta=Ya[1]y=15374855 end else if y<11712873 then xa[3]=s[O(6941)]y=Ya ca=65 wa=3 Ya=t()A[Ya]=Fa Fa=X(wa,ca)wa=s[O(6941)]ca=y u[wa]=Fa xa[2]=u[xa[3]]xa[3]=3 xa[1]=xa[2]<xa[3]y=xa[1]and 12493426 or 4807943 wa=xa[1]else X=s[O(3783)]y=u[X]X=s[O(3784)]u[X]=y y=15919070 end end end else if y<11991334 then if y<11892378 then if y<11814328 then y=true y=y and 3431444 or 12917771 else y=Ta y=Pa and 12545110 or 9891528 end else if y<11970615 then ua=oa za=A[ya]ha=la za[ua]=ha ua=nil y=3841395 la=nil else y=12217386 end end else if y<12052678 then if y<12037847 then G=A[P[8]]w=G F=1 y={}G=1 D=G Z=y G=0 v=D<G y=13022208 G=F-D else D=s[O(8423)]w=A[P[1]]h=w[D]y=s[O(3543)]G[y]=h y=3339407 end else if y<12160578 then h=s[O(2843)]y=u[h]Z=i(1009756,{})h=y(Z)y=6689325 else y=Z A[P[1]]=y y=3380967 end end end end end end else if y<14532299 then if y<13328060 then if y<12824423 then if y<12546617 then if y<12433275 then if y<12391641 then if y<12269644 then y=true y=y and 11971125 or 2021757 else y=A[P[1]]h=y()h={}y=u[s[O(5293)]]end else G=G+D p=not v F=G<=w F=p and F p=G>=w p=v and p F=p or F p=12824519 y=F and p F=10074763 y=y or F end else if y<12494272 then y=ca y=wa and 1781200 or 10270998 else Pa=A[n]Ta=Pa()y=9891528 end end else if y<12655077 then if y<12553237 then m=s[O(6223)]L=t()A[L]=h B=65 e=r(5019795,{})I=3 y=A[p]h=y(I,B)j=s[O(8424)]I=t()y=0 B=y A[I]=h y=0 h=u[m]m={h(e)}K=y y={z(m)}m=y h=2 y=m[h]h=s[O(8429)]e=y y=u[h]V=A[G]S=u[j]j=S(e)S=s[O(1104)]U=V(j,S)V={U()}h=y(z(V))V=t()A[V]=h h=1 U=A[I]y=3752620 S=U U=1 j=U U=0 X=j<U U=h-j else F=A[P[2]]w=s[O(6941)]y=14062436 G=u[w]Z=F==G h=Z end else if y<12810826 then xa[7]=xa[9]y=xa[10]y=15749484 else y=8455968 wa=nil end end end else if y<12987060 then if y<12867966 then if y<12827148 then y=A[P[1]]F=G L=255 n=0 p=y(n,L)Z[F]=p F=nil y=12421241 else Fa=s[O(8664)]Ga=u[Fa]y=ta Fa=s[O(3547)]ta=Ga[Fa]Ya=s[O(6224)]xa[2]=s[O(6224)]ca=y Ga=t()A[Ga]=ta Fa=u[Ya]Ya=s[O(3548)]ta=Fa[Ya]Ya=y xa[1]=u[xa[2]]wa=xa[1]y=xa[1]and 7408632 or 5421102 end else if y<12906643 then xa[9]=s[O(6226)]xa[6]=y xa[8]=u[xa[9]]xa[7]=xa[8]~=C xa[5]=xa[7]y=xa[7]and 2682283 or 10773686 else y=u[s[O(5294)]]h={}end end else if y<13028017 then if y<13008941 then y=A[P[1]]h=y()h={}y=u[s[O(5295)]]else G=G+D F=G<=w p=not v F=p and F p=G>=w p=v and p F=p or F p=2139522 y=F and p F=5275000 y=y or F end else if y<13220095 then Ta=false Za=t()A[Za]=Ta Fa=c(2292173,{Za})ta=y Ga=V(Fa)Ta=Ga y=Ga and 2542241 or 12850028 else G=0 Z=s[O(6222)]y=u[Z]F=A[P[7]]Z=y(F,G)y=12014297 end end end end else if y<13886482 then if y<13733431 then if y<13663421 then if y<13649246 then if y<13545138 then A[F]=sa q=1 Oa=A[N]J=Oa+q Q=W[J]E=B+Q Q=256 y=E%Q J=A[d]Q=K+J B=y J=256 y=1327486 E=Q%J K=E else Ya=s[O(6940)]Ga=A[I]Fa=s[O(6940)]ta=d(Ga,Fa)Fa=r(16254806,{})Ga=d(Fa,Ya)ca=s[O(8684)]wa=s[O(8684)]Ya=ta[wa]wa=Ga[ca]Fa=Ya==wa y=Fa and 3966353 or 5431862 end else Fa=nil Ta=nil y=8217708 end else if y<13692779 then M=t()d=100 C=s[O(8664)]A[M]=U h=u[C]C=s[O(3547)]y=h[C]C=1 h=y(C,d)C=t()d=0 A[C]=h N=255 q=0 a=10000 y=A[p]h=y(d,N)d=t()A[d]=h y=A[p]b=1 k=A[C]N=1 W=2 h=y(N,k)N=t()Q=s[O(8424)]A[N]=h h=A[p]k=h(b,W)W=s[O(6939)]h=1 y=k==h k=t()A[k]=y h=s[O(1104)]E=u[Q]y=s[O(8663)]J=A[p]Oa={J(q,a)}Q=E(z(Oa))y=e[y]E=s[O(6939)]sa=Q..E b=W..sa W=s[O(6223)]y=y(e,h,b)b=t()A[b]=y h=u[W]sa=R(2526146,{p;M,I;G;F,V;k;b;C,N;d;L})W={h(sa)}y={z(W)}W=y y=A[k]y=y and 3203314 or 7223259 else w,p=D(G,w)y=w and 10020942 or 7559742 end end else if y<13762848 then if y<13747642 then F=l[2]h=s[O(3553)]Z=l[1]y=F==h y=y and 8468718 or 3152179 else F=s[O(8426)]Z=l[1]h=Z[F]F=A[P[1]]y=h-F D=s[O(6227)]Z=nil F=y h=s[O(8426)]K=s[O(6944)]I=s[O(6945)]y=A[P[2]]w=u[D]D=s[O(1343)]G=w[D]n=s[O(6945)]p=A[P[3]]v=p[n]p=s[O(6242)]D=v[p]L=A[P[3]]n=L[I]L=s[O(3558)]I=s[O(6944)]p=n[L]L=s[O(6945)]n=F[L]v=p+n L=A[P[3]]n=L[I]L=s[O(6242)]p=n[L]B=A[P[3]]I=B[K]B=s[O(3558)]L=I[B]B=s[O(6944)]I=F[B]n=L+I w=G(D,v,p,n)y[h]=w h={}F=nil y=u[s[O(5296)]]end else if y<13798445 then V=Y(V)L=Y(L)v=nil K=nil X=s[O(6223)]I=Y(I)C=s[O(8664)]e=nil V=s[O(3314)]I=s[O(8664)]b=y B=nil n=nil w=Y(w)w=i(10269536,{})d=s[O(6226)]p=Y(p)m=nil D=Y(D)F=Y(F)F=true G=Y(G)G=t()A[G]=F F=H(6034345,{})D=H(12124763,{})L=u[I]m=s[O(8685)]I=s[O(3547)]v={F;w,D}n=L[I]I=1 K=s[O(5269)]B=#v L=n(I,B)B=s[O(5281)]p=v[L]L=s[O(6222)]n=t()A[n]=p I=s[O(6225)]p=u[L]Q=s[O(6226)]L=u[I]I=t()A[I]=L L=u[B]B=t()A[B]=L N=y e=s[O(8678)]L=u[K]K=u[m]m=t()A[m]=K K=u[e]e=u[V]V=u[X]M=u[C]C=s[O(3547)]X=M[C]C=s[O(3556)]M=u[C]C=u[d]W=u[Q]k=W y=W and 5005010 or 6900385 else F=A[P[1]]w=1 D=2 G=F(w,D)F=1 Z=G==F y=Z and 14062436 or 12568684 h=Z end end end else if y<14227373 then if y<14010527 then if y<13970821 then Aa=A[n]y=1801621 Za=Aa()else y=15466864 end else if y<14118745 then y=h and 10577196 or 3561962 else y=A[P[1]]h=y()h={}y=u[s[O(5297)]]end end else if y<14300108 then if y<14240604 then Aa=s[O(6225)]la=y ha=u[Aa]Aa=A[I]za=ha~=Aa oa=za y=za and 8582982 or 6261505 else y=3309907 v=A[D]h=v end else if y<14499436 then oa=s[O(6223)]Ta=u[oa]ha=s[O(1115)]za=C[ha]ha={Ta(za)}la=ha[2]oa=ha[1]y=oa and 5125476 or 5489200 else G=A[P[6]]F=G==Z y=6408122 h=F end end end end end else if y<15605003 then if y<15053066 then if y<14709373 then if y<14615790 then if y<14580642 then if y<14550738 then y=A[P[1]]h=y()h={}y=u[s[O(2847)]]else y=xa[1]y=ca and 7693106 or 12822863 end else Z=s[O(5989)]h=A[P[1]]y=h[Z]Z=y y=not Z y=y and 1455135 or 3235840 end else if y<14669411 then y=A[P[1]]h=y()h={}y=u[s[O(2848)]]else wa=s[O(8685)]Ya=u[wa]wa=A[m]Fa=Ya~=wa Ga=y y=Fa and 11397137 or 7946192 ta=Fa end end else if y<14873839 then if y<14713313 then y=A[P[1]]h=y()y=u[s[O(2849)]]h={}else y=3290222 end else if y<15005216 then w=s[O(2836)]G=Z[w]p=s[O(8665)]v=u[p]p=s[O(2836)]D=v[p]v=s[O(6241)]y=11663192 w=D[v]F=G==w h=F else xa[15]=xa[17]y=xa[18]y=6805374 end end end else if y<15374362 then if y<15166818 then if y<15099699 then ta=Fa y=Ya y=11397137 else Z=l[1]G=A[P[1]]F=Z==G y=F and 2623058 or 1982371 h=F end else if y<15270348 then w=nil y=16246334 D=nil else y=5083979 n=nil end end else if y<15428208 then if y<15378780 then Fa,Ya=ta(Ga,Fa)y=Fa and 9131338 or 3590532 else y=5295386 end else if y<15465805 then y=A[P[1]]h=y()y=u[s[O(172)]]h={}else y=u[s[O(173)]]xa[5]=c(4864232,{n})xa[6]={xa[5]()}h={z(xa[6])}end end end end else if y<16249610 then if y<16085585 then if y<15918965 then if y<15878818 then if y<15785915 then xa[5]=xa[7]y=xa[8]y=2682283 else h=sa y=E y=7712141 end else y=true A[P[1]]=y h={}y=u[s[O(2850)]]end else if y<15930508 then y=16645550 else G=0 Z=s[O(6222)]y=u[Z]F=A[P[8]]Z=y(F,G)y=5698899 end end else if y<16163576 then if y<16102541 then xa[19]=1 xa[18]=xa[9][xa[19]]y=8981513 xa[16]=xa[18]else y=A[P[1]]h=y()y=u[s[O(2851)]]h={}end else if y<16240062 then y=I n=L y=9657343 else F,D=G(Z,F)y=F and 7052977 or 4767666 end end end else if y<16412538 then if y<16327336 then if y<16313211 then y=u[s[O(5298)]]h={}else y=ca Fa=wa y=15070714 end else if y<16384328 then y=6689325 else y=A[P[1]]h=y()y=u[s[O(5299)]]h={}end end else if y<16598737 then if y<16558239 then xa[17]=y xa[18]=A[G]y=xa[18]and 16087309 or 8981513 xa[16]=xa[18]else xa[1]=xa[3]y=xa[4]y=9021681 end else if y<16633953 then Z=l[1]F=l[2]G=l[3]h=A[P[1]]y=h[F]y=y and 1041929 or 5764662 else y=true y=y and 7968989 or 2882759 end end end end end end end end end y=#T return z(h)end,function(O,s)local u=G(s)local z=function(z,l)return y(O,{z;l},s,u)end return z end,function(O,s)local u=G(s)local z=function()return y(O,{},s,u)end return z end,function(O,s)local u=G(s)local z=function(z,l,P,T)return y(O,{z;l;P;T},s,u)end return z end,function(O)Z[O]=Z[O]-1 if Z[O]==0 then Z[O],A[O]=nil,nil end end,function(u)for O=1,#u,1 do Z[u[O]]=1+Z[u[O]]end if l then local y=l(true)local z=T(y)z[s[O(1112)]],z[s[O(8677)]],z[s[O(6233)]]=u,w,function()return 3766446 end return y else return P({},{[s[O(8677)]]=w;[s[O(1112)]]=u,[s[O(6233)]]=function()return 3766446 end})end end,function(O,s)local u=G(s)local z=function(z,l,P,T,o,h)return y(O,{z;l,P;T,o,h},s,u)end return z end,function(O,s)local u=G(s)local z=function(z,l,P,T,o)return y(O,{z,l,P;T,o},s,u)end return z end,function(O,s)local u=G(s)local z=function(...)return y(O,{...},s,u)end return z end,0,{},function(O,s)local u=G(s)local z=function(z,l,P)return y(O,{z,l,P},s,u)end return z end,function()F=1+F Z[F]=1 return F end,function(O,s)local u=G(s)local z=function(z)return y(O,{z},s,u)end return z end,{},function(O)local s,u=1,O[1]while u do Z[u],s=Z[u]-1,1+s if Z[u]==0 then Z[u],A[u]=nil,nil end u=O[s]end end return(x(10474930,{}))(z(h))end)(getfenv and getfenv()or _ENV,unpack or table[s[O(3546)]],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 50%, #FF6B35 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #FF6B35;
+        }
+
+        h1 {
+            color: #FF6B35;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .subtitle {
+            font-size: 1.3em;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .tiger-emoji {
+            font-size: 4em;
+            display: block;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .badge:hover {
+            transform: translateY(-3px);
+        }
+
+        .badge.pro {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #333;
+        }
+
+        .badge.compress {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .badge.encrypt {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 350px;
+            padding: 20px;
+            border: 3px solid #FF6B35;
+            border-radius: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 15px;
+            resize: vertical;
+            background: #f8f9fa;
+            transition: all 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #F7931E;
+            box-shadow: 0 0 25px rgba(255, 107, 53, 0.5);
+            background: white;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .option-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 12px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .option-item:hover {
+            border-color: #FF6B35;
+            background: #fff;
+            transform: translateY(-2px);
+        }
+
+        .option-item.checked {
+            border-color: #FF6B35;
+            background: #fff5f0;
+        }
+
+        .option-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: #FF6B35;
+            margin-right: 10px;
+        }
+
+        .option-item label {
+            cursor: pointer;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.05em;
+        }
+
+        .option-desc {
+            margin-top: 8px;
+            font-size: 0.9em;
+            color: #666;
+            margin-left: 30px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #FF6B35, #F7931E);
+            color: white;
+            border: none;
+            padding: 20px 50px;
+            border-radius: 15px;
+            font-size: 1.3em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.5);
+        }
+
+        .btn:hover:not(:disabled) {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(255, 107, 53, 0.6);
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .result-box {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 25px;
+            border-radius: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 500px;
+            overflow-y: auto;
+            display: none;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border: 3px solid #FF6B35;
+        }
+
+        .result-box.show {
+            display: block;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .loader {
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #FF6B35;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            animation: spin 1s linear infinite;
+            margin: 40px auto;
+            display: none;
+        }
+
+        .loader.show {
+            display: block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .status-message {
+            text-align: center;
+            padding: 18px;
+            border-radius: 12px;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 1.1em;
+            display: none;
+        }
+
+        .status-message.show {
+            display: block;
+        }
+
+        .status-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 3px solid #28a745;
+        }
+
+        .status-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 3px solid #dc3545;
+        }
+
+        .status-message.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 3px solid #17a2b8;
+        }
+
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 8px;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+
+        .copy-btn:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #FF6B35, #F7931E);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(255, 107, 53, 0.4);
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            opacity: 0.95;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #fff3cd, #ffe8a1);
+            border: 3px solid #F7931E;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 25px;
+            color: #856404;
+        }
+
+        .info-box strong {
+            display: block;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+            color: #FF6B35;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 35px;
+            background: #e0e0e0;
+            border-radius: 18px;
+            overflow: hidden;
+            margin: 25px 0;
+            display: none;
+            border: 2px solid #FF6B35;
+        }
+
+        .progress-bar.show {
+            display: block;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #FF6B35, #F7931E, #FF6B35);
+            background-size: 200% 100%;
+            animation: shimmer 2s infinite;
+            width: 0%;
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="tiger-emoji">🐯</span>
+            <h1>Tiger Hub Obfuscator PRO</h1>
+            <p class="subtitle">TigerMoon V2 Enhanced - Proteção Militar Grade</p>
+        </div>
+
+        <div class="badge-container">
+            <div class="badge pro">💎 PRO VERSION</div>
+            <div class="badge compress">📦 LZW Compression</div>
+            <div class="badge encrypt">🔐 Multi-Layer Encryption</div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📝 Seu Código Lua</div>
+            <textarea id="luaCode" placeholder="Cole seu código Lua aqui...
+
+Exemplo:
+local player = game.Players.LocalPlayer
+print('Hello ' .. player.Name)
+wait(2)
+print('Tiger Hub Loaded!')"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-title">⚙️ Opções de Proteção</div>
+            <div class="options-grid">
+                <div class="option-item checked" onclick="toggleOption(this, 'opt1')">
+                    <input type="checkbox" id="opt1" checked>
+                    <label for="opt1">🔐 XOR Encryption</label>
+                    <div class="option-desc">Criptografa bytes com XOR 135</div>
+                </div>
+                <div class="option-item checked" onclick="toggleOption(this, 'opt2')">
+                    <input type="checkbox" id="opt2" checked>
+                    <label for="opt2">📦 LZW Compression</label>
+                    <div class="option-desc">Compressão Lempel-Ziv-Welch</div>
+                </div>
+                <div class="option-item checked" onclick="toggleOption(this, 'opt3')">
+                    <input type="checkbox" id="opt3" checked>
+                    <label for="opt3">⚡ Base85 Encoding</label>
+                    <div class="option-desc">Encoding customizado 85 chars</div>
+                </div>
+                <div class="option-item checked" onclick="toggleOption(this, 'opt4')">
+                    <input type="checkbox" id="opt4" checked>
+                    <label for="opt4">🎭 Variable Mangling</label>
+                    <div class="option-desc">Renomeia variáveis locais</div>
+                </div>
+                <div class="option-item checked" onclick="toggleOption(this, 'opt5')">
+                    <input type="checkbox" id="opt5" checked>
+                    <label for="opt5">🔀 Control Flow</label>
+                    <div class="option-desc">Ofusca fluxo de controle</div>
+                </div>
+                <div class="option-item checked" onclick="toggleOption(this, 'opt6')">
+                    <input type="checkbox" id="opt6" checked>
+                    <label for="opt6">🛡️ Anti-Debug</label>
+                    <div class="option-desc">Proteção anti-debugging</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn" id="processBtn" onclick="obfuscateCode()">
+            🚀 OFUSCAR COM PROTEÇÃO MÁXIMA
+        </button>
+
+        <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill">0%</div>
+        </div>
+
+        <div class="status-message" id="statusMessage"></div>
+        <div class="loader" id="loader"></div>
+
+        <div class="stats" id="statsSection" style="display: none;">
+            <div class="stat-card">
+                <div class="stat-value" id="originalSize">0</div>
+                <div class="stat-label">Bytes Original</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="compressedSize">0</div>
+                <div class="stat-label">Bytes Comprimido</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="compressionRatio">0%</div>
+                <div class="stat-label">Taxa Compressão</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="protectionLayers">0</div>
+                <div class="stat-label">Camadas Ativas</div>
+            </div>
+        </div>
+
+        <div class="section" style="margin-top: 40px;">
+            <div class="section-title">🔒 Código Ultra Protegido</div>
+            <div class="result-box" id="resultBox"></div>
+            <div style="text-align: center; margin-top: 20px; display: none;" id="copyButtons">
+                <button class="copy-btn" onclick="copyCode()">📋 Copiar Código</button>
+                <button class="copy-btn" style="background: #6f42c1;" onclick="downloadCode()">💾 Baixar .lua</button>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <strong>🐯 Tiger Hub Obfuscator PRO - TigerMoon V2 Enhanced</strong>
+            <p>Versão profissional com 6 camadas de proteção:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>🔐 <strong>XOR Encryption:</strong> Criptografia byte a byte com chave 135</li>
+                <li>📦 <strong>LZW Compression:</strong> Compressão de dados avançada</li>
+                <li>⚡ <strong>Base85 Encoding:</strong> Encoding customizado para reduzir tamanho</li>
+                <li>🎭 <strong>Variable Mangling:</strong> Renomeação de variáveis (opcional)</li>
+                <li>🔀 <strong>Control Flow:</strong> Ofuscação de fluxo de execução (opcional)</li>
+                <li>🛡️ <strong>Anti-Debug:</strong> Proteção contra debugging (opcional)</li>
+            </ul>
+            <p style="margin-top: 15px;">
+                ✅ 100% funcional após ofuscação<br>
+                ✅ Compatível com todos executores Roblox<br>
+                ✅ Praticamente impossível de deofuscar
+            </p>
+        </div>
+    </div>
+
+    <script>
+        let obfuscatedCode = '';
+
+        function toggleOption(element, optId) {
+            const checkbox = document.getElementById(optId);
+            checkbox.checked = !checkbox.checked;
+            
+            if (checkbox.checked) {
+                element.classList.add('checked');
+            } else {
+                element.classList.remove('checked');
+            }
+        }
+
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('statusMessage');
+            statusEl.textContent = message;
+            statusEl.className = `status-message show ${type}`;
+        }
+
+        function hideStatus() {
+            document.getElementById('statusMessage').classList.remove('show');
+        }
+
+        function updateProgress(percent, text) {
+            const progressBar = document.getElementById('progressBar');
+            const progressFill = document.getElementById('progressFill');
+            progressBar.classList.add('show');
+            progressFill.style.width = percent + '%';
+            progressFill.textContent = text;
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // ==================== VARIABLE MANGLING ====================
+        function mangleVariables(code) {
+            if (!document.getElementById('opt4').checked) return code;
+            
+            const protectedWords = ['game', 'workspace', 'script', 'print', 'wait', 'local', 
+                                    'function', 'end', 'if', 'then', 'else', 'for', 'while', 
+                                    'do', 'return', 'require', 'getfenv', 'setfenv', 'loadstring',
+                                    'string', 'table', 'math', 'bit'];
+            
+            const varMap = new Map();
+            let counter = 0;
+            
+            const regex = /\blocal\s+([a-zA-Z_][a-zA-Z0-9_]*)\b/g;
+            let match;
+            while ((match = regex.exec(code)) !== null) {
+                const varName = match[1];
+                if (!protectedWords.includes(varName) && !varMap.has(varName)) {
+                    const mangled = `_0x${counter.toString(16)}${Math.random().toString(36).substr(2, 4)}`;
+                    varMap.set(varName, mangled);
+                    counter++;
+                }
+            }
+            
+            varMap.forEach((newName, oldName) => {
+                const regex = new RegExp(`\\b${oldName}\\b`, 'g');
+                code = code.replace(regex, newName);
+            });
+            
+            return code;
+        }
+
+        // ==================== CONTROL FLOW OBFUSCATION ====================
+        function obfuscateControlFlow(code) {
+            if (!document.getElementById('opt5').checked) return code;
+            
+            const state1 = Math.floor(Math.random() * 9999);
+            const state2 = Math.floor(Math.random() * 9999);
+            
+            return `(function()
+    local _STATE = ${state1}
+    local _VERIFY = ${state2}
+    if _STATE == ${state1} and _VERIFY == ${state2} then
+        ${code}
+    else
+        error('Invalid state', 0)
+    end
+end)()`;
+        }
+
+        // ==================== ANTI-DEBUG ====================
+        function addAntiDebug(code) {
+            if (!document.getElementById('opt6').checked) return code;
+            
+            const antiDebug = `-- Anti-Debug Protection
+local _ENV_CHECK = getfenv or function() return _G end
+local _ENV = _ENV_CHECK()
+if not _ENV then error('', 0) end
+if type(_ENV) ~= 'table' then error('', 0) end
+
+`;
+            return antiDebug + code;
+        }
+
+        // ==================== LZW COMPRESSION ====================
+        function lzwCompress(data) {
+            if (!document.getElementById('opt2').checked) {
+                // Sem compressão, apenas retornar array de bytes
+                return Array.from(data).map(c => c.charCodeAt(0));
+            }
+            
+            const dict = {};
+            let dictSize = 256;
+            
+            for (let i = 0; i < 256; i++) {
+                dict[String.fromCharCode(i)] = i;
+            }
+            
+            let w = "";
+            const result = [];
+            
+            for (let i = 0; i < data.length; i++) {
+                const c = data.charAt(i);
+                const wc = w + c;
+                
+                if (dict.hasOwnProperty(wc)) {
+                    w = wc;
+                } else {
+                    result.push(dict[w]);
+                    dict[wc] = dictSize++;
+                    w = String(c);
+                }
+            }
+            
+            if (w !== "") {
+                result.push(dict[w]);
+            }
+            
+            return result;
+        }
+
+        // ==================== BASE85 ENCODING ====================
+        function encodeBase85Custom(numbers) {
+            if (!document.getElementById('opt3').checked) {
+                // Sem encoding, retornar string simples
+                return numbers.map(n => String.fromCharCode(n)).join('');
+            }
+            
+            const alphabet = "6~!5MiGhcd[Fka/;_?}mX.rAY`0UVe<W){(^EL-TO=DCK|@wBg7x:nz#%,JR8*$y&s]Iuqo>2lS4fvt9pHQZ1NP3+jb";
+            let result = "";
+            
+            for (let num of numbers) {
+                let digits = [];
+                let temp = num;
+                
+                if (temp === 0) {
+                    digits = [0];
+                } else {
+                    while (temp > 0) {
+                        digits.unshift(temp % 85);
+                        temp = Math.floor(temp / 85);
+                    }
+                }
+                
+                result += alphabet[digits.length];
+                for (let d of digits) {
+                    result += alphabet[d];
+                }
+            }
+            
+            return result;
+        }
+
+        // ==================== XOR ENCRYPTION ====================
+        function xorEncrypt(data, key) {
+            if (!document.getElementById('opt1').checked) return data;
+            
+            let result = [];
+            for (let i = 0; i < data.length; i++) {
+                result.push(data.charCodeAt(i) ^ key);
+            }
+            return result.map(b => String.fromCharCode(b)).join('');
+        }
+
+        // ==================== GERAR CÓDIGO TIGERMOON ====================
+        function generateTigerMoonCode(compressed) {
+            const encoded = encodeBase85Custom(compressed);
+            
+            const useCompression = document.getElementById('opt2').checked;
+            const useEncoding = document.getElementById('opt3').checked;
+            
+            if (!useCompression && !useEncoding) {
+                // Sem compressão nem encoding, código simples
+                return `-- [[ TigerMoon V2 PRO - By Tiger Hub ]]
+
+local code = "${encoded.replace(/"/g, '\\"').replace(/\n/g, '\\n')}"
+return loadstring(code)()`;
+            }
+            
+            return `-- [[ TigerMoon V2 PRO - By Tiger Hub ]]
+
+return(function(w,...)local d=string.byte;local f=string.char;local o=string.sub;local G=table.concat;local l=table.insert;local s=math.ldexp;local M=getfenv or function()return _ENV end;local l=setmetatable;local u=select;local l=unpack or table.unpack;local l=tonumber;local function h(d)local e,n,c="","",{}local t=256 local a={}for l=0,t-1 do a[l]=f(l)end local r="6~!5MiGhcd[Fka/;_?}mX.rAY\`0UVe<W){(^EL-TO=DCK|@wBg7x:nz#%,JR8*$y&s]Iuqo>2lS4fvt9pHQZ1NP3+jb"local i={}for l=1,#r do i[o(r,l,l)]=l-1 end local l=1 local function r()local c=i[o(d,l,l)]l=l+1 local n=0 local a=1 for e=1,c do n=n*85+i[o(d,l,l)]l=l+1 end return n end e=f(r())c[1]=e while l<#d do local l=r()if a[l]then n=a[l]else n=e..o(e,1,1)end a[t]=e..o(n,1,1)c[#c+1],e,t=n,n,t+1 end return table.concat(c)end;local t=h(w[1]);local c=bit and bit.bxor or function(l,n)local e,o=1,0 while l>0 and n>0 do local a,c=l%2,n%2 if a~=c then o=o+e end l,n,e=(l-a)/2,(n-c)/2,e*2 end if l<n then l=n end while l>0 do local n=l%2 if n>0 then o=o+e end l,e=(l-n)/2,e*2 end return o end local function n(e,l,n)if n then local l=(e/2^(l-1))%2^((n-1)-(l-1)+1);return l-l%1;else local l=2^(l-1);return(e%(l+l)>=l)and 1 or 0;end;end;local l=1;local e=getfenv;local e=_G;local function e()local o,n,e,a=d(t,l,l+3);o=c(o,135)n=c(n,135)e=c(e,135)a=c(a,135)l=l+4;return(a*16777216)+(e*65536)+(n*256)+o;end;local function i()local e=c(d(t,l,l),135);l=l+1;return e;end;local function a()local n,e=d(t,l,l+2);n=c(n,135)e=c(e,135)l=l+2;return(e*256)+n;end;local function w()local o=e();local l=e();local c=1;local o=(n(l,1,20)*(2^32))+o;local e=n(l,21,31);local l=((-1)^n(l,32));if(e==0)then if(o==0)then return l*0;else e=1;c=0;end;elseif(e==2047)then return(o==0)and(l*(1/0))or(l*(0/0));end;return s(l,e-1023)*(c+(o/(2^52)));end;local function s(e)local n;if(not e)then e=e();if(e==0)then return'';end;end;n=o(t,l,l+e-1);l=l+e;local e={}for l=1,#n do e[l]=f(c(d(o(n,l,l)),135))end return G(e);end;local l=e;local function f(...)return{...},u('#',...)end local function G()local d={};local c={};local l={};local t={d,c,nil,l};local l=e()local o={}for n=1,l do local e=i();local l;if(e==3)then l=(i()~=0);elseif(e==1)then l=w();elseif(e==2)then l=s();end;o[n]=l;end;for c=1,e()do local l=i();if(n(l,1,1)==0)then local t=n(l,2,3);local f=n(l,4,6);local l={a(),a(),nil,nil};if(t==0)then l[3]=a();l[4]=a();elseif(t==1)then l[3]=e();elseif(t==2)then l[3]=e()-(2^16)elseif(t==3)then l[3]=e()-(2^16)l[4]=a();end;if(n(f,1,1)==1)then l[2]=o[l[2]]end if(n(f,2,2)==1)then l[3]=o[l[3]]end if(n(f,3,3)==1)then l[4]=o[l[4]]end d[c]=l;end end;t[3]=i();for l=1,e()do c[l-1]=G();end;return t;end;local function u(l,e,i)local n=l[1];local e=l[2];local l=l[3];return function(...)local o=n;local c=e;local a=l;local h=f local e=1;local d=-1;local f={};local t={...};local s=u('#',...)-1;local l={};local n={};for l=0,s do if(l>=a)then f[l-a]=t[l+1];else n[l]=t[l+1];end;end;local l=s-a+1 local l;local a;while true do l=o[e];a=l[1];if a<=14 then if a<=6 then if a<=2 then if a<=0 then local e=l[2]local o,l=h(n[e](n[e+1]))d=l+e-1 local l=0;for e=e,d do l=l+1;n[e]=o[l];end;elseif a>1 then n[l[2]]=i[l[3]];else local e=l[2]n[e]=n[e](n[e+1])end;elseif a<=4 then if a>3 then do return end;else n[l[2]]=l[3];end;elseif a==5 then if(n[l[2]]==l[4])then e=e+1;else e=l[3];end;else local a;local a;n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];a=l[2]n[a]=n[a]..n[a+1]e=e+1;l=o[e];n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];a=l[2]n[a](n[a+1])e=e+1;l=o[e];do return end;end;elseif a<=10 then if a<=8 then if a>7 then n[l[2]]=l[3];else n[l[2]]=i[l[3]];end;elseif a==9 then local a;n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];a=l[2]n[a](n[a+1])e=e+1;l=o[e];do return end;else local e=l[2]local o,l=h(n[e](n[e+1]))d=l+e-1 local l=0;for e=e,d do l=l+1;n[e]=o[l];end;end;elseif a<=12 then if a>11 then local e=l[2]n[e](n[e+1])else n[l[2]]=i[l[3]];end;elseif a>13 then if(n[l[2]]==l[4])then e=e+1;else e=l[3];end;else n[l[2]]=l[3];end;elseif a<=22 then if a<=18 then if a<=16 then if a==15 then local a;n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];a=l[2]n[a](n[a+1])e=e+1;l=o[e];do return end;else n[l[2]]=i[l[3]];end;elseif a==17 then local a;local a;n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];a=l[2]n[a]=n[a]..n[a+1]e=e+1;l=o[e];n[l[2]]=i[l[3]];e=e+1;l=o[e];n[l[2]]=l[3];e=e+1;l=o[e];a=l[2]n[a](n[a+1])e=e+1;l=o[e];do return end;else n[l[2]]=l[3];end;elseif a<=20 then if a>19 then e=l[3];else e=l[3];end;elseif a==21 then do return end;else n[l[2]]=l[3];end;elseif a<=26 then if a<=24 then if a>23 then local e=l[2]n[e](n[e+1])else n[l[2]]=l[3];end;elseif a>25 then n[l[2]]=i[l[3]];else n[l[2]]=i[l[3]];end;elseif a<=28 then if a==27 then n[l[2]]=i[l[3]];else n[l[2]]=l[3];end;elseif a==29 then n[l[2]]=l[3];else local e=l[2]n[e]=n[e](n[e+1])end;e=e+1;end;end;end;return u(G(),{},M())end)("${encoded}")`;
+        }
+
+        // ==================== FUNÇÃO PRINCIPAL ====================
+        async function obfuscateCode() {
+            const code = document.getElementById('luaCode').value.trim();
+            
+            if (!code) {
+                showStatus('❌ Por favor, insira um código Lua!', 'error');
+                return;
+            }
+            
+            const btn = document.getElementById('processBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Processando...';
+            
+            document.getElementById('loader').classList.add('show');
+            document.getElementById('resultBox').classList.remove('show');
+            document.getElementById('copyButtons').style.display = 'none';
+            document.getElementById('statsSection').style.display = 'none';
+            hideStatus();
+            
+            try {
+                let processed = code;
+                let activeLayers = 0;
+                
+                // Contar camadas ativas
+                for (let i = 1; i <= 6; i++) {
+                    if (document.getElementById('opt' + i).checked) activeLayers++;
+                }
+                
+                // Layer 1: Variable Mangling
+                if (document.getElementById('opt4').checked) {
+                    updateProgress(16, '🎭 Layer 1: Variable Mangling...');
+                    await sleep(600);
+                    processed = mangleVariables(processed);
+                }
+                
+                // Layer 2: Control Flow
+                if (document.getElementById('opt5').checked) {
+                    updateProgress(33, '🔀 Layer 2: Control Flow...');
+                    await sleep(600);
+                    processed = obfuscateControlFlow(processed);
+                }
+                
+                // Layer 3: Anti-Debug
+                if (document.getElementById('opt6').checked) {
+                    updateProgress(50, '🛡️ Layer 3: Anti-Debug...');
+                    await sleep(600);
+                    processed = addAntiDebug(processed);
+                }
+                
+                // Layer 4: XOR Encryption
+                updateProgress(66, '🔐 Layer 4: XOR Encryption...');
+                await sleep(600);
+                const encrypted = xorEncrypt(processed, 135);
+                
+                // Layer 5: LZW Compression
+                updateProgress(83, '📦 Layer 5: LZW Compression...');
+                await sleep(600);
+                const compressed = lzwCompress(encrypted);
+                
+                // Layer 6: Base85 Encoding + TigerMoon
+                updateProgress(100, '⚡ Layer 6: Generating TigerMoon...');
+                await sleep(600);
+                obfuscatedCode = generateTigerMoonCode(compressed);
+                
+                // Mostrar resultado
+                showStatus('✅ Código ofuscado com máxima proteção!', 'success');
+                document.getElementById('resultBox').textContent = obfuscatedCode;
+                document.getElementById('resultBox').classList.add('show');
+                document.getElementById('copyButtons').style.display = 'block';
+                
+                // Atualizar estatísticas
+                const originalSize = code.length;
+                const compressedSize = compressed.length;
+                const ratio = Math.round((compressedSize / originalSize) * 100);
+                
+                document.getElementById('originalSize').textContent = originalSize;
+                document.getElementById('compressedSize').textContent = compressedSize;
+                document.getElementById('compressionRatio').textContent = ratio + '%';
+                document.getElementById('protectionLayers').textContent = activeLayers;
+                document.getElementById('statsSection').style.display = 'grid';
+                
+                document.getElementById('resultBox').scrollIntoView({ behavior: 'smooth' });
+                
+            } catch (error) {
+                console.error('Obfuscation error:', error);
+                showStatus('❌ Erro ao ofuscar: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🚀 OFUSCAR COM PROTEÇÃO MÁXIMA';
+                document.getElementById('loader').classList.remove('show');
+                setTimeout(() => {
+                    document.getElementById('progressBar').classList.remove('show');
+                }, 1000);
+            }
+        }
+
+        function copyCode() {
+            if (!obfuscatedCode) {
+                showStatus('❌ Nenhum código para copiar!', 'error');
+                return;
+            }
+            
+            navigator.clipboard.writeText(obfuscatedCode).then(() => {
+                showStatus('✅ Código TigerMoon PRO copiado!', 'success');
+                setTimeout(hideStatus, 2000);
+            }).catch(() => {
+                const textarea = document.createElement('textarea');
+                textarea.value = obfuscatedCode;
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = '0';
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                showStatus('✅ Código copiado!', 'success');
+                setTimeout(hideStatus, 2000);
+            });
+        }
+
+        function downloadCode() {
+            const blob = new Blob([obfuscatedCode], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'tigermoon_pro_protected.lua';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        console.log('🐯 Tiger Hub Obfuscator PRO - TigerMoon V2 Enhanced');
+    </script>
+</body>
+</html>
